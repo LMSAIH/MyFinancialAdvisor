@@ -1,0 +1,31 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color:  #333333;
+}
+
+.Content {
+  background-color:  white;
+  flex-grow: 1;
+}
+
+.Navbar {
+  background-color: #F4F4F4;
+}
+
+.ChatPage>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+}
+
+.UserMessage {
+  margin-left:auto;
+  width:fit-content;
+}
+
+.BotMessage {
+  width:fit-content;
+}
