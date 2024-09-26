@@ -1,5 +1,4 @@
 const express = require('express');
-const readline = require('readline');
 const cors = require('cors');
 const { generateMeta } = require('./controllers/openAiController');
 
