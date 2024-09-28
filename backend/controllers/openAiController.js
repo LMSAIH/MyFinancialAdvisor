@@ -15,6 +15,7 @@ const generateMeta = async (req, res) => {
     max_tokens: 100,
   });
 
+  //Status in case of successful responses
   res.status(200).json({
     aibot: description.choices[0].message.content,
   });
