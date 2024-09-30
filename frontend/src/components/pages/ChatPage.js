@@ -27,7 +27,7 @@ export const ChatPage = () => {
             </div>
             <button onClick={()=>{
                                     sendMessage("My like coockies");
-            }}>press me</button>
+            }}>press me to be happy</button>
         </div>
 
     )
