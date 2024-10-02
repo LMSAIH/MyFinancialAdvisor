@@ -7,6 +7,7 @@ export const ChatPage = () => {
     const {messages, dispatch} = useMessagesProvider();
 
 
+    //Get rid of the debugger. This effect is setting the payload with the current information from the user 
     useEffect( () => {
         debugger
         dispatch({type: "SET_MESSAGES", payload: [{role: "user", message: 'i am here', img: ""}]})
