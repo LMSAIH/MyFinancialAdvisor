@@ -1,5 +1,6 @@
 const openai = require("../config/openaiConfig");
 
+//This will feed the prompt for the chat completion
 const generateMeta = async (req, res) => {
   const financialAdvise = req.body.message;
   const messageHistory = req.body.messages;
