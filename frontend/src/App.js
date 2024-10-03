@@ -5,6 +5,7 @@ import { ChatPage } from './components/pages/ChatPage';
 
 function App() {
   return (
+    
     <div className='Wrapper'>
       <BrowserRouter>
         <Navbar />
