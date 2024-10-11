@@ -2,6 +2,7 @@ import { createContext, useReducer, useEffect} from 'react';
 
 export const MessagesContext = createContext();
 
+//this reducer manages the state frrom the application data 
 const messagesReducer = (state, action) => {
 
     debugger
