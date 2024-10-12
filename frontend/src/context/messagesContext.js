@@ -21,6 +21,7 @@ const messagesReducer = (state, action) => {
     }
 }
 
+//This is the message context provider
 export const MessagesContextProvider = ({children}) => {
 
     const [state, dispatch] = useReducer(messagesReducer, {
