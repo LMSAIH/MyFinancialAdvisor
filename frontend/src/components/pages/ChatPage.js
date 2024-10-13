@@ -13,7 +13,7 @@ export const ChatPage = () => {
         dispatch({type: "SET_MESSAGES", payload: [{role: "user", message: 'i am here', img: ""}]})
     }, [dispatch]);
 
-
+    //Function to send an async request with the message to the api 
     const sendMessage = async (message) => {
         debugger
         const response = await axios.post("http://localhost:3000/openai/meta", {message: message})
