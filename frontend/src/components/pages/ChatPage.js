@@ -21,6 +21,7 @@ export const ChatPage = () => {
         dispatch({type: "ADD_MESSAGES", payload: {role: "bot", message: response.data.aibot, img: ""}})
     }
 
+    //The chat page returned elements
     return (
         <div className="ChatPage">
             <div>
