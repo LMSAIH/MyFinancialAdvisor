@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { ChatPage } from './components/pages/ChatPage';
 
-
+//Application routes
 function App() {
   return (
     
