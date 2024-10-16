@@ -4,6 +4,7 @@ import axios from 'axios';
 
 export const ChatPage = () => {
 
+    //call the provider for the messages dispatch
     const {messages, dispatch} = useMessagesProvider();
 
 
