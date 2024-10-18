@@ -29,7 +29,7 @@ export const MessagesContextProvider = ({children}) => {
     });
 
 
-
+    //wrapper provider for the children
     return (
         <MessagesContext.Provider value = {{...state, dispatch}}>
             { children }
