@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const { generateMeta } = require('./controllers/openAiController');
 
-
+//the express application
 const app = express();
 
 
