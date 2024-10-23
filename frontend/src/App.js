@@ -23,6 +23,7 @@ function App() {
   );
 }
 
+//navbar component pls create the file for it
 const Navbar = () => {
   return (
     <div className='Navbar'>
