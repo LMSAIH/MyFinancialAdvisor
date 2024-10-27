@@ -37,7 +37,7 @@ export const ChatPage = () => {
     )
 }
 
-//This is the message item component
+//This is the message item component to provide in the app
 const MessageItem = (props) => {
 
     return (
