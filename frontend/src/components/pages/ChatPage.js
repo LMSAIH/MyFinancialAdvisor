@@ -42,6 +42,7 @@ const MessageItem = (props) => {
 
     //Returned content
     return (
+        //props for the message ternary
         <div className={props.role == 'user' ? "UserMessage" : "BotMessage"}>
             <div>
                 {props.author}
