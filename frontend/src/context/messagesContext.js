@@ -5,6 +5,7 @@ export const MessagesContext = createContext();
 //this reducer manages the state frrom the application data 
 const messagesReducer = (state, action) => {
 
+    //remove the debuggers
     debugger
     switch(action.type){
         case 'ADD_MESSAGES':
