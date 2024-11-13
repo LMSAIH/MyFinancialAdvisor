@@ -23,7 +23,7 @@ function App() {
   );
 }
 
-//navbar component pls create the file for it
+//navbar component pls create the file for it fix changes
 const Navbar = () => {
   return (
     <div className='Navbar'>
