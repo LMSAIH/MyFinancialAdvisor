@@ -40,7 +40,7 @@ export const ChatPage = () => {
 //This is the message item component to provide in the app
 const MessageItem = (props) => {
 
-    //Returned content
+    //Returned content for the chatpage
     return (
         //props for the message ternary
         <div className={props.role == 'user' ? "UserMessage" : "BotMessage"}>
