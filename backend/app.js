@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.listen(3000, () => {console.log('Cors enabled web server listening to port 3000')});
+//post the api key
 app.post('/openai/meta', generateMeta);
 
 
