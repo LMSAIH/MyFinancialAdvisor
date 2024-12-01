@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { MessagesContextProvider } from './context/messagesContext';
 
-//get the root
+//get the root for the dom
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
